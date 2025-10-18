@@ -23,5 +23,6 @@ public class NotificationListener {
             String email = "example@example.com"; // Замените на реальную логику получения email.
             emailService.sendEmail(email, "Здравствуйте! Ваш аккаунт был удалён.");
         }
+
     }
 }

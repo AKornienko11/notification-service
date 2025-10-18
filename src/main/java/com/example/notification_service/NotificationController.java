@@ -26,4 +26,5 @@ public class NotificationController {
         emailService.sendEmail(email, "Добрый день! Ваш аккаунт был удалён.");
         return ResponseEntity.ok().build();
     }
+
 }
