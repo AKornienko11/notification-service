@@ -6,7 +6,6 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 @Service
-
 public class EmailService {
     private final JavaMailSender emailSender;
 
@@ -22,7 +21,6 @@ public class EmailService {
         mailMessage.setText(message);
 
         emailSender.send(mailMessage);
-
         System.out.println("Sending email to " + email + ": " + message);
     }
 }
