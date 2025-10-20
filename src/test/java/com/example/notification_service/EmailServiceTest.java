@@ -31,4 +31,5 @@ class EmailServiceTest {
         emailService.sendEmail(mail,message);
         verify(mailSender).send(any(SimpleMailMessage.class));
     }
+
 }

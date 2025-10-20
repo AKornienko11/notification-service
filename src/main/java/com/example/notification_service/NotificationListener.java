@@ -24,5 +24,6 @@ public class NotificationListener {
             String email = "aakornienko19901107@gmail.com";
             emailService.sendEmail(email, "Здравствуйте! Ваш аккаунт был удалён.");
         }
+
     }
 }

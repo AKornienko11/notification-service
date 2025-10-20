@@ -23,4 +23,5 @@ public class EmailService {
         emailSender.send(mailMessage);
         System.out.println("Sending email to " + email + ": " + message);
     }
+
 }
